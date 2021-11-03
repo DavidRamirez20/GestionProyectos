@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <p>Hola Mundo, Soy Next JS</p>
-      <Link href='/admin/usuarios'>
+      <Link href='/Admin/usuarios'>
         <a className='cursor-pointer'>Ir a admin usuarios</a>
       </Link>
     </div>
