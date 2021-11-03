@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Head, Html, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
    static async getInitialProps(ctx: any) {
@@ -10,7 +10,7 @@ class MyDocument extends Document {
       return (
          <Html>
             <Head>
-               <script src="https://kit.fontawesome.com/6396d12f7f.js" crossOrigin="anonymous"></script>
+               {/* <script src="https://kit.fontawesome.com/6396d12f7f.js" crossOrigin="anonymous"></script> */}
             </Head>
             <body>
                <Main />
